@@ -81,7 +81,7 @@
       title: "Mission Control Hub",
       des:"A mission control dashboard which targets habitable planets using Keplar data. Built with React, MongoDb, Express and Node.",
       img: "/bg-sd-pf.jpg",
-      iconLists: ["/react.svg", "/mongodb.svg", "/express-w.svg", "/node.svg", "/jest.png"],
+      iconLists: ["/react.svg", "/mongodb.svg", "/express-w.svg", "/node.svg", "/jest.png", "/github.svg" , "/docker.svg"],
       link: "https://nasa-project-4aee9.firebaseapp.com",
     },
     {
@@ -129,7 +129,7 @@
       title: "Portfolio Website",
       des: "A portfolio website built with Next.js, Tailwind CSS and Aceternity UI.",
       img: "/bg-sd-pf.jpg",
-      iconLists: ["/cplus.svg"],
+      iconLists: ["/next.svg", "/tailwind.svg", "/typescript.svg", "/github.svg"],
       link: "https://ishita-portfolio-nine.vercel.app/",
     },
 
