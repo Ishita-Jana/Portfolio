@@ -81,7 +81,7 @@
       title: "Mission Control Hub",
       des:"A mission control dashboard which targets habitable planets using Keplar data. Built with React, MongoDb, Express and Node.",
       img: "/bg-sd-pf.jpg",
-      iconLists: ["/react.svg", "/mongodb.svg", "/express.svg", "/node.svg", "/jest.svg"],
+      iconLists: ["/react.svg", "/mongodb.svg", "/express-w.svg", "/node.svg", "/jest.png"],
       link: "https://nasa-project-4aee9.firebaseapp.com",
     },
     {
@@ -116,6 +116,23 @@
       iconLists: ["/react.svg"],
       link: "https://githubbox.com/Ishita-Jana/Tic-tac-Toe",
     },
+    {
+      id: 6,
+      title: "Smart Home System",
+      des: "A smart home system that can be controlled using a mobile application. Built with C++",
+      img: "/bg-sd-pf.jpg",
+      iconLists: ["/cplus.svg"],
+      link: "https://github.com/Ishita-Jana/SmartHomeSystem",
+    },
+    {
+      id: 7,
+      title: "Portfolio Website",
+      des: "A portfolio website built with Next.js, Tailwind CSS and Aceternity UI.",
+      img: "/bg-sd-pf.jpg",
+      iconLists: ["/cplus.svg"],
+      link: "https://ishita-portfolio-nine.vercel.app/",
+    },
+
   ];
   
   export const testimonials = [

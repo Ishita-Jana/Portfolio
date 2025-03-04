@@ -34,7 +34,7 @@ export function AnimatedPinDemo({title,href, des,iconLists,img}:{title?:string,h
                 <div className="flex flex-2">
                 {iconLists.map((icon, i) => {
                         return (
-                            <div key={i} className="border-[0.5px] md:w-[27] md:h-[24]  border-gray-800 rounded-full bg-black-200  p-1 flex justify-center items-center" style={{transform:`translateX(-${6*i*2}px)`}}>
+                            <div key={i} className="border-[0.5px] md:w-[40] md:h-[37]  border-gray-800 rounded-full bg-black-200  p-1 flex justify-center items-center" style={{transform:`translateX(-${6*i*2}px)`}}>
                                 <img src={icon} alt="icon" className="p-0.5 " /> 
                                 
                             </div>
