@@ -6,10 +6,10 @@ import { useState } from "react";
 export const HoverEffect = ({
   title,
   id,
-  year,
+  // year,
   desc,
   className,
-  thumbnail,
+  // thumbnail,
 }: {
   
     title: string;
@@ -20,7 +20,7 @@ export const HoverEffect = ({
     thumbnail: string;
 
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div

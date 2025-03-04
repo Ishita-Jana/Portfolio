@@ -1,5 +1,5 @@
-import { url } from "inspector";
-import { title } from "process";
+// import { url } from "inspector";
+// import { title } from "process";
 
 // export const navItems = [
 //     { name: "About", link: "#about" },

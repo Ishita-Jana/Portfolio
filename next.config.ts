@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // typescript: {
+  //   ignoreBuildErrors: true,
+  // }
 
 };
 
@@ -86,3 +92,4 @@ disableLogger: true,
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
 });
+

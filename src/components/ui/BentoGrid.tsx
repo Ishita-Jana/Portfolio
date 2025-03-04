@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
-import animationData from "@/data/confetti.json";
+// import animationData from "@/data/confetti.json";
 import {MagicButton} from "./MagicButton";
 // import { gridItems } from "../../public/";
 
@@ -60,17 +60,17 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const defaultOptions = {
+  //   loop: copied,
+  //   autoplay: copied,
+  //   animationData: animationData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "itsishita13@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

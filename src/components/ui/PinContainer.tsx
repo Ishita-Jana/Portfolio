@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { PinContainer } from "./3d-pin";
-import { FaArrowUp, FaLocationArrow } from "react-icons/fa6";
+import {  FaLocationArrow } from "react-icons/fa6";
 
 export function AnimatedPinDemo({title,href, des,iconLists,img}:{title?:string,href?:string, des:string,iconLists:string[],img:string}) {
   return (

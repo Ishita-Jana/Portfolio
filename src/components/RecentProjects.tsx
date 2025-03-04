@@ -1,7 +1,7 @@
 import { projects } from '@/data'
 import React from 'react'
 import { AnimatedPinDemo } from './ui/PinContainer'
-import { PinContainer } from './ui/3d-pin'
+
 
 
 const RecentProjects = () => {
