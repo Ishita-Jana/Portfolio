@@ -81,7 +81,7 @@
       title: "Mission Control Hub",
       des:"A mission control dashboard which targets habitable planets using Keplar data. Built with React, MongoDb, Express and Node.",
       img: "/bg-sd-pf.jpg",
-      iconLists: ["/react.svg", "/mongodb.svg", "/express-w.svg", "/node.svg", "/jest.png", "/git.svg" , "/docker.svg"],
+      iconLists: ["/react.svg", "/mongodb.svg", "/express-w.svg", "/node.svg", "/jest.svg", "/git.svg" , "/docker.svg"],
       link: "https://nasa-project-4aee9.firebaseapp.com",
     },
     {
